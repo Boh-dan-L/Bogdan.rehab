@@ -1231,61 +1231,68 @@ var price = [// {
 // },
 {
   id: 2,
-  title: 'Онлайн консультація',
-  price: '400 грн/30 хв.',
+  title: 'Онлайн консультація + програма реабілітації',
+  price: '1000 грн/60 хв.',
   btn: 'Записатись',
   detal: 'Детальніше',
-  trg: 'Ця послуга ідеально підходить тим хто травмувався і потребує реабілітації, але не має можливості працювати безпосередньо з реабілітологом. На сеансі проводиться збір анамнезу та цілей реабілітації. Я відповідаю на всі Ваші питання і даю рекомендації. Після цього формую програму реабілітації з вправами  на 2 тижні. ВСІ ГРОШІ З ЦІЄЇ ПОСЛУГИ ЙДУТЬ НА ЗСУ!!! ВІЙСЬКОВИМ БЕЗКОШТОВНО!!!'
-}, {
-  id: 3,
-  title: 'Побудова програми реабілітації',
-  price: '300 грн',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: 'Реабілітація вдома онлайн має багато переваг. По-перше, це зручніше для пацієнта, оскільки йому не потрібно їздити на прийом і назад. По-друге, це доступніше, ніж традиційні послуги амбулаторної реабілітації. По-третє, це дозволяє пацієнту отримувати терапію в приватному житті власного дому, або з любої точки світу. Нарешті, це може забезпечити більш гнучкий графік для пацієнта.'
-}, {
-  id: 4,
-  title: 'Перший сеанс',
-  price: '500 грн/45 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: 'Маєте дискомфорт або біль, але не знаєте на яку послугу записатись? Вибирай цю послугу. На сеансі я проводжу огляд та збираю всю історію хвороби, тестую та проводжу лікувальні заходи. Оцінюю оптимальну тактику лікування та даю рекомендації.'
-}, {
-  id: 5,
-  title: 'Дитячий масаж',
-  price: '450 грн/30 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: 'Дитячий масаж дуже корисний дітям дошкільного та шкільного віку, які мають певні проблеми з поставою. Масаж можна виконувати як в лікуванні так і в профілактиці захворювань опорно-рухового апарату.'
-}, {
-  id: 6,
-  title: 'Масаж + гімнастика 0-1 року',
-  price: '450 грн/30 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: 'Масаж та гімнастика в грудному віці сприяє нормальному фізичному розвитку дитини. Також такі сеанси призначаються при різних проблемах опорно-рухового апарату та патологіях (дисплазія, кривошия, гіпертонус, відставання в розвитку тощо). На сеансі Ви отримаєте також рекомендації як займатись з дитиною вдома для більшого результату від курсу.'
-}, {
-  id: 7,
-  title: 'Лікувальний масаж 30 хв',
-  price: '500 грн/30 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
-}, {
-  id: 8,
-  title: 'Лікувальний масаж 60 хв',
-  price: '900 грн/60 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
-}, {
-  id: 9,
-  title: 'Реабілітація',
-  price: '900 грн/60 хв.',
-  btn: 'Записатись',
-  detal: 'Детальніше',
-  trg: "Реабілітація - це комплекс лікувальних та профілактичних заходів, який спрямований на максимально можливе відновлення втрачених здібностей пацієнта після різних захворювань.На першому сеансі спочатку роблю первинний огляд і збір анамнезу. Після чого проводиться перше заняття. В залежності від проблематики, я використовую різні методики як масажу і маніпуляцій, так і вправ, тобто індивідуальний і комплексний підхід. Після першого сеансу визначається тактика та можливі варіанти реабілітації. Також даю рекомендації для подальшої підтримки здоровʼя."
-}];
+  trg: 'Якщо маєш проблеми зі спиною та суглобами і немає можливості або часу звертатись до кваліфікованого реабілітолога за лікуванням офлайн, та їздити регулярно на реабілітацію, то онлайн консультація - найкраща альтернатива. Цей варіант підходить для тих хто цінує свій час, адже Вам не знадобиться їхати кудись і тратити багато часу на це.👍 Отримайте всі відповіді на питання просто не виходячи з дому і проходьте реабілітацію в любий зручний час для Вас😀 У вартість консультації входить: 1.Збір історії хвороби. 2.Тестування мʼязів та суглобів. 3.Консультація ( уточнюючі запитання, додаткові тести ) 4.Тестові вправи на поточні фізичні можливості та техніку. 5.Підбір програми лікувальних вправ. 6.Ретест попереднього результату. 7. Відповіді на питання та обговорення стратегії лікування Після консультації даю рекомендації та створюю індивідуальну програму з вправами і самомасажем у відеоматеріалі на 2 тижні. І протягом цих 2 тижнів підтримуємо звʼязок та аналізуємо результати.'
+} // {
+//     id: 3,
+//     title:'Побудова програми реабілітації',
+//     price:'500 грн',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: 'Реабілітація вдома онлайн має багато переваг. По-перше, це зручніше для пацієнта, оскільки йому не потрібно їздити на прийом і назад. По-друге, це доступніше, ніж традиційні послуги амбулаторної реабілітації. По-третє, це дозволяє пацієнту отримувати терапію в приватному житті власного дому, або з любої точки світу. Нарешті, це може забезпечити більш гнучкий графік для пацієнта.'
+// },
+// {
+//     id: 4,
+//     title:'Перший сеанс',
+//     price:'500 грн/45 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: 'Маєте дискомфорт або біль, але не знаєте на яку послугу записатись? Вибирай цю послугу. На сеансі я проводжу огляд та збираю всю історію хвороби, тестую та проводжу лікувальні заходи. Оцінюю оптимальну тактику лікування та даю рекомендації.'
+// },
+// {
+//     id: 5,
+//     title:'Дитячий масаж',
+//     price:'450 грн/30 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: 'Дитячий масаж дуже корисний дітям дошкільного та шкільного віку, які мають певні проблеми з поставою. Масаж можна виконувати як в лікуванні так і в профілактиці захворювань опорно-рухового апарату.'
+// },
+// {
+//     id: 6,
+//     title:'Масаж + гімнастика 0-1 року',
+//     price:'450 грн/30 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: 'Масаж та гімнастика в грудному віці сприяє нормальному фізичному розвитку дитини. Також такі сеанси призначаються при різних проблемах опорно-рухового апарату та патологіях (дисплазія, кривошия, гіпертонус, відставання в розвитку тощо). На сеансі Ви отримаєте також рекомендації як займатись з дитиною вдома для більшого результату від курсу.'
+// },
+// {
+//     id: 7,
+//     title:'Лікувальний масаж 30 хв',
+//     price:'500 грн/30 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
+// },
+// {
+//     id: 8,
+//     title:'Лікувальний масаж 60 хв',
+//     price:'900 грн/60 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
+// },
+// {
+//     id: 9,
+//     title:'Реабілітація',
+//     price:'900 грн/60 хв.',
+//     btn:'Записатись',
+//     detal: 'Детальніше',
+//     trg: "Реабілітація - це комплекс лікувальних та профілактичних заходів, який спрямований на максимально можливе відновлення втрачених здібностей пацієнта після різних захворювань.На першому сеансі спочатку роблю первинний огляд і збір анамнезу. Після чого проводиться перше заняття. В залежності від проблематики, я використовую різні методики як масажу і маніпуляцій, так і вправ, тобто індивідуальний і комплексний підхід. Після першого сеансу визначається тактика та можливі варіанти реабілітації. Також даю рекомендації для подальшої підтримки здоровʼя."
+// },
+];
 
 var Price = function Price() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -1319,6 +1326,164 @@ var Price = function Price() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Price);
+
+/***/ }),
+
+/***/ "./src/PageVideoCurse/Form/KOOSForm.js":
+/*!*********************************************!*\
+  !*** ./src/PageVideoCurse/Form/KOOSForm.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _KOOSForm_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./KOOSForm.scss */ "./src/PageVideoCurse/Form/KOOSForm.scss");
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+ // Стилі форми
+
+var KOOSForm = function KOOSForm() {
+  var koosQuestions = [{
+    category: "Біль",
+    questions: ["Чи відчували ви біль у коліні при підйомі або спуску по сходах?", "Чи відчували ви біль у коліні при ходьбі по рівній поверхні?", "Чи відчували ви біль у коліні при вставанні з положення сидячи?", "Чи відчували ви біль у коліні вночі під час сну?", "Чи відчували ви біль у коліні при стоянні впродовж 30 хвилин?", "Чи відчували ви біль у коліні після фізичних навантажень?"]
+  }, {
+    category: "Симптоми",
+    questions: ["Чи відчували ви скутість (жорсткість) у коліні після пробудження вранці?", "Чи відчували ви скутість у коліні після тривалого сидіння чи відпочинку?", "Чи було у вас припухання в коліні?", "Чи хрумтів або клацав ваш колінний суглоб при русі?", "Чи відчували ви нестабільність (підкошування) коліна?"]
+  }, {
+    category: "Функція, повсякденна активність",
+    questions: ["Чи відчували ви труднощі при спуску по сходах?", "Чи відчували ви труднощі при підйомі по сходах?", "Чи відчували ви труднощі при вставанні з положення сидячи?", "Чи відчували ви труднощі при стоянні?", "Чи відчували ви труднощі при підйомі з ліжка?", "Чи відчували ви труднощі при вході та виході з автомобіля?", "Чи відчували ви труднощі при покупках (наприклад, носінні сумок)?", "Чи відчували ви труднощі при ходьбі по рівній поверхні?", "Чи відчували ви труднощі при митті підлоги або пилососінні?"]
+  }, {
+    category: "Спортивна активність",
+    questions: ["Чи відчували ви труднощі при бігу?", "Чи відчували ви труднощі при стрибках?", "Чи відчували ви труднощі при присіданнях?", "Чи відчували ви труднощі при коліноприклонному положенні?"]
+  }, {
+    category: "Якість життя",
+    questions: ["Чи усвідомлюєте ви наявність проблем із коліном у повсякденному житті?", "Чи змушені ви адаптувати свій спосіб життя через коліно?", "Наскільки часто ви відчуваєте проблеми з коліном?", "Чи можете ви повністю довіряти своєму коліну?"]
+  }]; // Загальна кількість питань
+
+  var totalQuestions = koosQuestions.reduce(function (acc, category) {
+    return acc + category.questions.length;
+  }, 0);
+
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(Array(totalQuestions).fill(0)),
+      _useState2 = _slicedToArray(_useState, 2),
+      answers = _useState2[0],
+      setAnswers = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
+      _useState4 = _slicedToArray(_useState3, 2),
+      activeCategory = _useState4[0],
+      setActiveCategory = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
+      _useState6 = _slicedToArray(_useState5, 2),
+      result = _useState6[0],
+      setResult = _useState6[1]; // Функція для обробки змін у відповідях
+
+
+  var handleChange = function handleChange(index, value) {
+    var newAnswers = _toConsumableArray(answers);
+
+    newAnswers[index] = parseInt(value);
+    setAnswers(newAnswers);
+  }; // Функція для підрахунку результату
+
+
+  var calculateResult = function calculateResult() {
+    var totalScore = answers.reduce(function (acc, curr) {
+      return acc + curr;
+    }, 0);
+    setResult(totalScore);
+  }; // Функція для відкриття блоку з питаннями
+
+
+  var toggleCategory = function toggleCategory(index) {
+    setActiveCategory(activeCategory === index ? null : index);
+  }; // Функція для отримання індексу питання в масиві answers
+
+
+  var getQuestionIndex = function getQuestionIndex(catIndex, qIndex) {
+    var index = 0;
+
+    for (var i = 0; i < catIndex; i++) {
+      index += koosQuestions[i].questions.length;
+    }
+
+    return index + qIndex;
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "koos-form-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "koos-title"
+  }, "\u041E\u0446\u0456\u043D\u043A\u0430 \u0442\u0440\u0430\u0432\u043C\u0438 \u043A\u043E\u043B\u0456\u043D\u0430 \u0442\u0430 \u043E\u0441\u0442\u0435\u043E\u0430\u0440\u0442\u0440\u0438\u0442\u0443 KOOS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "koos-sutitle"
+  }, "\u0406\u041D\u0421\u0422\u0420\u0423\u041A\u0426\u0406\u0407. \u0423 \u0446\u044C\u043E\u043C\u0443 \u043E\u043F\u0438\u0442\u0443\u0432\u0430\u043D\u043D\u0456 \u043D\u0435\u043E\u0431\u0445\u0456\u0434\u043D\u043E \u043D\u0430\u0434\u0430\u0442\u0438 \u0432\u0430\u0448\u0435 \u0431\u0430\u0447\u0435\u043D\u043D\u044F \u0449\u043E\u0434\u043E \u0432\u0430\u0448\u043E\u0433\u043E \u043A\u043E\u043B\u0456\u043D\u0430. \u0426\u0435 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u044F \u0434\u043E\u043F\u043E\u043C\u043E\u0436\u0435 \u0432\u0430\u043C \u0437\u0440\u043E\u0437\u0443\u043C\u0456\u0442\u0438 \u0441\u0442\u0435\u043F\u0456\u043D\u044C \u043F\u043E\u0440\u0443\u0448\u0435\u043D\u043D\u044F \u0444\u0443\u043D\u043A\u0446\u0456\u0457 \u043A\u043E\u043B\u0456\u043D\u0430. \u0414\u0430\u0439\u0442\u0435 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u044C \u043D\u0430 \u043A\u043E\u0436\u043D\u0435 \u0437\u0430\u043F\u0438\u0442\u0430\u043D\u043D\u044F, \u0432\u0456\u0434\u0437\u043D\u0430\u0447\u0438\u0432\u0448\u0438 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u043D\u0443 \u043A\u043B\u0456\u0442\u0438\u043D\u043A\u0443, \u043B\u0438\u0448\u0435 \u043E\u0434\u043D\u0443 \u043A\u043B\u0456\u0442\u0438\u043D\u043A\u0443 \u0434\u043B\u044F \u043A\u043E\u0436\u043D\u043E\u0433\u043E \u0437\u0430\u043F\u0438\u0442\u0430\u043D\u043D\u044F. \u042F\u043A\u0449\u043E \u0432\u0438 \u043D\u0435 \u0432\u043F\u0435\u0432\u043D\u0435\u043D\u0456, \u044F\u043A \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0441\u0442\u0438 \u043D\u0430 \u0437\u0430\u043F\u0438\u0442\u0430\u043D\u043D\u044F, \u043D\u0430\u0434\u0430\u0439\u0442\u0435 \u043D\u0430\u0439\u043A\u0440\u0430\u0449\u0443 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u044C, \u044F\u043A\u0443 \u0432\u0438 \u043C\u043E\u0436\u0435\u0442\u0435."), koosQuestions.map(function (category, catIndex) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      key: catIndex,
+      className: "koos-category"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+      className: "koos-category-btn",
+      onClick: function onClick() {
+        return toggleCategory(catIndex);
+      }
+    }, category.category), activeCategory === catIndex && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "koos-questions"
+    }, category.questions.map(function (question, qIndex) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: "koos-question",
+        key: qIndex
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+        onChange: function onChange(e) {
+          return handleChange(getQuestionIndex(catIndex, qIndex), e.target.value);
+        },
+        value: answers[getQuestionIndex(catIndex, qIndex)]
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+        value: "0"
+      }, "0 - \u041D\u0435\u043C\u0430\u0454 \u043F\u0440\u043E\u0431\u043B\u0435\u043C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+        value: "1"
+      }, "1 - \u041B\u0435\u0433\u043A\u0456 \u0442\u0440\u0443\u0434\u043D\u043E\u0449\u0456"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+        value: "2"
+      }, "2 - \u041F\u043E\u043C\u0456\u0440\u043D\u0456 \u0442\u0440\u0443\u0434\u043D\u043E\u0449\u0456"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+        value: "3"
+      }, "3 - \u0417\u043D\u0430\u0447\u043D\u0456 \u0442\u0440\u0443\u0434\u043D\u043E\u0449\u0456"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+        value: "4"
+      }, "4 - \u0414\u0443\u0436\u0435 \u0432\u0430\u0436\u043A\u043E")));
+    })));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "koos-submit-btn",
+    onClick: calculateResult
+  }, "\u041F\u0456\u0434\u0440\u0430\u0445\u0443\u0432\u0430\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"), result !== null && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "koos-result"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "\u0412\u0430\u0448 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442: ", result), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, result <= 80 ? "Ваше коліно функціонує добре! Можливо, є незначний дискомфорт, але серйозних обмежень немає. Для профілактики варто підтримувати фізичну активність." : result <= 60 ? "Є помірні проблеми з коліном. Ви можете відчувати біль або скутість у певних ситуаціях. Рекомендується програма реабілітації для зміцнення суглоба." : result <= 40 ? "Ви маєте суттєві обмеження у функції коліна. Це впливає на повсякденне життя та активність. Вам варто пройти курс реабілітації, щоб відновити рухливість і зменшити біль." : "Ваш стан потребує уваги! Значні труднощі з рухом та болем можуть вказувати на серйозне порушення. Вам рекомендовано пройти спеціалізовану програму відновлення або звернутися до спеціаліста."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "\u042F\u043A\u0438\u0439 \u0435\u0442\u0430\u043F \u0440\u0435\u0430\u0431\u0456\u043B\u0456\u0442\u0430\u0446\u0456\u0457 \u0432\u0430\u043C \u043F\u0456\u0434\u0445\u043E\u0434\u0438\u0442\u044C?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, result <= 80 ? "Вам підходить заключний етап реабілітації, спрямований на зміцнення та повернення до активного способу життя. Цей етап включає інтенсивні вправи на витривалість, координацію та вибухову силу." : result <= 60 ? "Вам підходить функціональний етап реабілітації, що включає вправи для підвищення сили м’язів, стабільності суглоба та поступової підготовки до активних навантажень." : result <= 40 ? "Вам підходить середній етап реабілітації, який допоможе зменшити біль, покращити контроль м’язів і відновити рухливість. Включає вправи на баланс, стабільність і помірні силові навантаження." : "Вам підходить початковий етап реабілітації, який допоможе зменшити біль, зняти запалення та відновити базову рухливість. Основний акцент на м’які мобілізаційні та ізометричні вправи."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.bogdan-rehab.com.ua/rehab-course",
+    className: "koos-course-btn"
+  }, "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u0434\u043E \u043A\u0443\u0440\u0441\u0443")));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (KOOSForm);
 
 /***/ }),
 
@@ -1368,13 +1533,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header_HeaderExer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header/HeaderExer */ "./src/PageVideoCurse/Header/HeaderExer.js");
 /* harmony import */ var _VideoSlider_PlayList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./VideoSlider/PlayList */ "./src/PageVideoCurse/VideoSlider/PlayList.js");
+/* harmony import */ var _Form_KOOSForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form/KOOSForm */ "./src/PageVideoCurse/Form/KOOSForm.js");
 
 
-;
+
 
 
 var PageVideoCouse = function PageVideoCouse() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_HeaderExer__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_VideoSlider_PlayList__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_HeaderExer__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form_KOOSForm__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_VideoSlider_PlayList__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageVideoCouse);
@@ -2273,7 +2439,33 @@ var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
 var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".price {\n  padding-top: 20px;\n  padding-bottom: 100px;\n}\n.price ul {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n@media (min-width: 576px) {\n  .price ul {\n    flex-wrap: wrap;\n  }\n}\n@media (min-width: 1024px) {\n  .price ul {\n    justify-content: space-around;\n  }\n}\n.price__li {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 281px;\n  min-height: 160px;\n  height: -moz-fit-content;\n  height: fit-content;\n  margin-bottom: 30px;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n@media (min-width: 540px) {\n  .price__li {\n    width: 382px;\n    min-height: 227px;\n    justify-content: space-around;\n    padding: 5px 0;\n  }\n}\n@media (min-width: 764px) {\n  .price__li {\n    margin: 15px 15px;\n  }\n}\n.price__li:first-child {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n.price__li:nth-child(2) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n.price__li:nth-child(3) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n.price__li:nth-child(4) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n.price__li:nth-child(5) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n}\n.price__li:nth-child(6) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n.price__li:nth-child(7) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n.price__li:nth-child(8) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n.price__li:nth-child(9) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n.price__title {\n  margin-top: 15px;\n}\n.price__title, .price__subtitle {\n  color: white;\n  margin-bottom: 7px;\n}\n.price__title .title, .price__subtitle .title {\n  font-weight: 700;\n  font-size: 15px;\n  color: #fff;\n}\n@media (min-width: 540px) {\n  .price__title .title, .price__subtitle .title {\n    font-size: 19px;\n  }\n}\n.price__subtitle .title {\n  font-size: 18px;\n}\n@media (min-width: 540px) {\n  .price__subtitle .title {\n    font-size: 21px;\n  }\n}\n.price__btn .button-prime {\n  width: 121px;\n  height: 35px;\n  cursor: pointer;\n}\n@media (min-width: 576px) {\n  .price__btn .button-prime {\n    width: 151px;\n    height: 45px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/PagePrice/Price/price.scss"],"names":[],"mappings":"AAAA;EACI,iBAAA;EACA,qBAAA;AACJ;AACI;EACI,aAAA;EACA,uBAAA;EACA,eAAA;AACR;AACQ;EALJ;IAMQ,eAAA;EAEV;AACF;AAAQ;EATJ;IAUQ,6BAAA;EAGV;AACF;AAAI;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,YAAA;EACA,iBAAA;EACA,wBAAA;EAAA,mBAAA;EACA,mBAAA;EACA,4BAAA;EACA,sBAAA;AAER;AAAQ;EAZJ;IAaQ,YAAA;IACA,iBAAA;IACA,6BAAA;IACA,cAAA;EAGV;AACF;AADQ;EAnBJ;IAoBQ,iBAAA;EAIV;AACF;AADI;EACI,yDAAA;AAGR;AAAI;EACI,yDAAA;AAER;AACI;EACI,yDAAA;AACR;AAEI;EACI,yDAAA;AAAR;AAGI;EACI,yDAAA;AADR;AAII;EACI,yDAAA;AAFR;AAKI;EACI,yDAAA;AAHR;AAMI;EACI,yDAAA;AAJR;AAOI;EACI,yDAAA;AALR;AAQI;EACI,gBAAA;AANR;AASI;EACI,YAAA;EACA,kBAAA;AAPR;AASQ;EACI,gBAAA;EACA,eAAA;EACA,WAAA;AAPZ;AASY;EALJ;IAMQ,eAAA;EANd;AACF;AAWQ;EACI,eAAA;AATZ;AAWY;EAHJ;IAIQ,eAAA;EARd;AACF;AAaQ;EACI,YAAA;EACA,YAAA;EACA,eAAA;AAXZ;AAaY;EALJ;IAMQ,YAAA;IACA,YAAA;EAVd;AACF","sourcesContent":[".price {\n    padding-top: 20px;\n    padding-bottom: 100px;\n\n    ul {\n        display: flex;\n        justify-content: center;\n        flex-wrap: wrap;\n\n        @media (min-width: 576px) {\n            flex-wrap: wrap;\n        }\n\n        @media (min-width: 1024px) {\n            justify-content: space-around;\n        }\n    }\n\n    &__li {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n        width: 281px;\n        min-height: 160px;\n        height: fit-content;\n        margin-bottom: 30px;\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        @media (min-width: 540px) {\n            width: 382px;\n            min-height: 227px;\n            justify-content: space-around;\n            padding: 5px 0;\n        }\n\n        @media (min-width: 764px) {\n            margin: 15px 15px;\n        }\n    }\n\n    &__li:first-child {\n        background-image: url(../../img/rehabHome.png);\n    }\n\n    &__li:nth-child(2) {\n        background-image: url(../../img/onlineConsul.png);\n    }\n\n    &__li:nth-child(3) {\n        background-image: url(../../img/onlineRehab.png);\n    }\n\n    &__li:nth-child(4) {\n        background-image: url(../../img/first-seans.png);\n    }\n\n    &__li:nth-child(5) {\n        background-image: url(../../img/kids-mass.png);\n    }\n\n    &__li:nth-child(6) {\n        background-image: url(../../img/kids-massage.png);\n    }\n\n    &__li:nth-child(7) {\n        background-image: url(../../img/massage30.png);\n    }\n\n    &__li:nth-child(8) {\n        background-image: url(../../img/massage60.png);\n    }\n\n    &__li:nth-child(9) {\n        background-image: url(../../img/rehab-kab.png);\n    }\n\n    &__title {\n        margin-top: 15px;\n    }\n\n    &__title, &__subtitle {\n        color: white;\n        margin-bottom: 7px;\n\n        .title {\n            font-weight: 700;\n            font-size: 15px;\n            color: #fff;\n\n            @media (min-width: 540px) {\n                font-size: 19px;\n            }\n        }\n    }\n\n    &__subtitle {\n        .title {\n            font-size: 18px;\n\n            @media (min-width: 540px) {\n                font-size: 21px;\n            }\n        }\n    }\n\n    &__btn {\n        .button-prime  {\n            width: 121px;\n            height: 35px;\n            cursor: pointer;\n\n            @media (min-width: 576px) {\n                width: 151px;\n                height: 45px;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".price {\n  padding-top: 20px;\n  padding-bottom: 100px;\n}\n.price ul {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n@media (min-width: 576px) {\n  .price ul {\n    flex-wrap: wrap;\n  }\n}\n@media (min-width: 1024px) {\n  .price ul {\n    justify-content: space-around;\n  }\n}\n.price__li {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 281px;\n  min-height: 160px;\n  height: -moz-fit-content;\n  height: fit-content;\n  margin-bottom: 30px;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n@media (min-width: 540px) {\n  .price__li {\n    width: 382px;\n    min-height: 227px;\n    justify-content: space-around;\n    padding: 5px 0;\n  }\n}\n@media (min-width: 764px) {\n  .price__li {\n    margin: 15px 15px;\n    width: 925px;\n    min-height: 320px;\n  }\n}\n.price__li:first-child {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n.price__li:nth-child(2) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n.price__li:nth-child(3) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n.price__li:nth-child(4) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n.price__li:nth-child(5) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n}\n.price__li:nth-child(6) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n.price__li:nth-child(7) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n.price__li:nth-child(8) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n.price__li:nth-child(9) {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n.price__title {\n  margin-top: 15px;\n}\n.price__title, .price__subtitle {\n  color: white;\n  margin-bottom: 7px;\n}\n.price__title .title, .price__subtitle .title {\n  font-weight: 700;\n  font-size: 15px;\n  color: #fff;\n}\n@media (min-width: 540px) {\n  .price__title .title, .price__subtitle .title {\n    font-size: 19px;\n  }\n}\n.price__subtitle .title {\n  font-size: 18px;\n}\n@media (min-width: 540px) {\n  .price__subtitle .title {\n    font-size: 21px;\n  }\n}\n.price__btn .button-prime {\n  width: 121px;\n  height: 35px;\n  cursor: pointer;\n}\n@media (min-width: 576px) {\n  .price__btn .button-prime {\n    width: 151px;\n    height: 45px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/PagePrice/Price/price.scss"],"names":[],"mappings":"AAAA;EACI,iBAAA;EACA,qBAAA;AACJ;AACI;EACI,aAAA;EACA,uBAAA;EACA,eAAA;AACR;AACQ;EALJ;IAMQ,eAAA;EAEV;AACF;AAAQ;EATJ;IAUQ,6BAAA;EAGV;AACF;AAAI;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,YAAA;EACA,iBAAA;EACA,wBAAA;EAAA,mBAAA;EACA,mBAAA;EACA,4BAAA;EACA,sBAAA;AAER;AAAQ;EAZJ;IAaQ,YAAA;IACA,iBAAA;IACA,6BAAA;IACA,cAAA;EAGV;AACF;AADQ;EAnBJ;IAoBQ,iBAAA;IACA,YAAA;IACA,iBAAA;EAIV;AACF;AADI;EACI,yDAAA;AAGR;AAAI;EACI,yDAAA;AAER;AACI;EACI,yDAAA;AACR;AAEI;EACI,yDAAA;AAAR;AAGI;EACI,yDAAA;AADR;AAII;EACI,yDAAA;AAFR;AAKI;EACI,yDAAA;AAHR;AAMI;EACI,yDAAA;AAJR;AAOI;EACI,yDAAA;AALR;AAQI;EACI,gBAAA;AANR;AASI;EACI,YAAA;EACA,kBAAA;AAPR;AASQ;EACI,gBAAA;EACA,eAAA;EACA,WAAA;AAPZ;AASY;EALJ;IAMQ,eAAA;EANd;AACF;AAWQ;EACI,eAAA;AATZ;AAWY;EAHJ;IAIQ,eAAA;EARd;AACF;AAaQ;EACI,YAAA;EACA,YAAA;EACA,eAAA;AAXZ;AAaY;EALJ;IAMQ,YAAA;IACA,YAAA;EAVd;AACF","sourcesContent":[".price {\n    padding-top: 20px;\n    padding-bottom: 100px;\n\n    ul {\n        display: flex;\n        justify-content: center;\n        flex-wrap: wrap;\n\n        @media (min-width: 576px) {\n            flex-wrap: wrap;\n        }\n\n        @media (min-width: 1024px) {\n            justify-content: space-around;\n        }\n    }\n\n    &__li {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n        width: 281px;\n        min-height: 160px;\n        height: fit-content;\n        margin-bottom: 30px;\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        @media (min-width: 540px) {\n            width: 382px;\n            min-height: 227px;\n            justify-content: space-around;\n            padding: 5px 0;\n        }\n\n        @media (min-width: 764px) {\n            margin: 15px 15px;\n            width: 925px;\n            min-height: 320px;\n        }\n    }\n\n    &__li:first-child {\n        background-image: url(../../img/rehabHome.png);\n    }\n\n    &__li:nth-child(2) {\n        background-image: url(../../img/onlineConsul.png);\n    }\n\n    &__li:nth-child(3) {\n        background-image: url(../../img/onlineRehab.png);\n    }\n\n    &__li:nth-child(4) {\n        background-image: url(../../img/first-seans.png);\n    }\n\n    &__li:nth-child(5) {\n        background-image: url(../../img/kids-mass.png);\n    }\n\n    &__li:nth-child(6) {\n        background-image: url(../../img/kids-massage.png);\n    }\n\n    &__li:nth-child(7) {\n        background-image: url(../../img/massage30.png);\n    }\n\n    &__li:nth-child(8) {\n        background-image: url(../../img/massage60.png);\n    }\n\n    &__li:nth-child(9) {\n        background-image: url(../../img/rehab-kab.png);\n    }\n\n    &__title {\n        margin-top: 15px;\n    }\n\n    &__title, &__subtitle {\n        color: white;\n        margin-bottom: 7px;\n\n        .title {\n            font-weight: 700;\n            font-size: 15px;\n            color: #fff;\n\n            @media (min-width: 540px) {\n                font-size: 19px;\n            }\n        }\n    }\n\n    &__subtitle {\n        .title {\n            font-size: 18px;\n\n            @media (min-width: 540px) {\n                font-size: 21px;\n            }\n        }\n    }\n\n    &__btn {\n        .button-prime  {\n            width: 121px;\n            height: 35px;\n            cursor: pointer;\n\n            @media (min-width: 576px) {\n                width: 151px;\n                height: 45px;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/PageVideoCurse/Form/KOOSForm.scss":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/PageVideoCurse/Form/KOOSForm.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".koos-form-container {\n  font-family: Arial, sans-serif;\n  background-color: #ffffff;\n  padding: 20px;\n  border-radius: 8px;\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n  max-width: 600px;\n  margin: 50px auto;\n}\n\n.koos-title {\n  font-size: 24px;\n  color: #333;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.koos-sutitle {\n  font-size: 19px;\n  color: #333;\n  text-align: center;\n  margin-bottom: 50px;\n}\n\n.koos-category {\n  margin-bottom: 10px;\n}\n\n.koos-category-btn {\n  width: 100%;\n  padding: 10px;\n  font-size: 18px;\n  background: #008fad;\n  color: white;\n  border: none;\n  cursor: pointer;\n  border-radius: 5px;\n}\n\n.koos-category-btn:hover {\n  background: #006079;\n}\n\n.koos-questions {\n  padding: 10px;\n  background: #f9f9f9;\n  border-radius: 5px;\n  margin-top: 5px;\n}\n\n.koos-question {\n  margin-bottom: 10px;\n}\n\n.koos-submit-btn {\n  width: 100%;\n  padding: 10px;\n  font-size: 18px;\n  background: #28a745;\n  color: white;\n  border: none;\n  cursor: pointer;\n  border-radius: 5px;\n  margin-top: 20px;\n}\n\n.koos-submit-btn:hover {\n  background: #218838;\n}\n\n.koos-result {\n  margin-top: 20px;\n  padding: 15px;\n  background: #fff3cd;\n  border-left: 5px solid #ffa502;\n  border-radius: 5px;\n}\n\n.koos-course-btn {\n  display: block;\n  width: 100%;\n  text-align: center;\n  padding: 10px;\n  background: #007bff;\n  color: white;\n  text-decoration: none;\n  border-radius: 5px;\n  margin-top: 15px;\n}\n\n.koos-course-btn:hover {\n  background: #0056b3;\n}", "",{"version":3,"sources":["webpack://./src/PageVideoCurse/Form/KOOSForm.scss"],"names":[],"mappings":"AAAA;EACI,8BAAA;EACA,yBAAA;EACA,aAAA;EACA,kBAAA;EACA,yCAAA;EACA,gBAAA;EACA,iBAAA;AACJ;;AAEA;EACI,eAAA;EACA,WAAA;EACA,kBAAA;EACA,mBAAA;AACJ;;AACA;EACI,eAAA;EACA,WAAA;EACA,kBAAA;EACA,mBAAA;AAEJ;;AACA;EACI,mBAAA;AAEJ;;AACA;EACI,WAAA;EACA,aAAA;EACA,eAAA;EACA,mBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;AAEJ;;AACA;EACI,mBAAA;AAEJ;;AACA;EACI,aAAA;EACA,mBAAA;EACA,kBAAA;EACA,eAAA;AAEJ;;AACA;EACI,mBAAA;AAEJ;;AACA;EACI,WAAA;EACA,aAAA;EACA,eAAA;EACA,mBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;EACA,gBAAA;AAEJ;;AACA;EACI,mBAAA;AAEJ;;AACA;EACI,gBAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;AAEJ;;AAAA;EACI,cAAA;EACA,WAAA;EACA,kBAAA;EACA,aAAA;EACA,mBAAA;EACA,YAAA;EACA,qBAAA;EACA,kBAAA;EACA,gBAAA;AAGJ;;AAAA;EACI,mBAAA;AAGJ","sourcesContent":[".koos-form-container {\n    font-family: Arial, sans-serif;\n    background-color: #ffffff;\n    padding: 20px;\n    border-radius: 8px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n    max-width: 600px;\n    margin: 50px auto;\n}\n\n.koos-title {\n    font-size: 24px;\n    color: #333;\n    text-align: center;\n    margin-bottom: 20px;\n}\n.koos-sutitle {\n    font-size: 19px;\n    color: #333;\n    text-align: center;\n    margin-bottom: 50px;\n}\n\n.koos-category {\n    margin-bottom: 10px;\n}\n\n.koos-category-btn {\n    width: 100%;\n    padding: 10px;\n    font-size: 18px;\n    background: #008fad;\n    color: white;\n    border: none;\n    cursor: pointer;\n    border-radius: 5px;\n}\n\n.koos-category-btn:hover {\n    background: #006079;\n}\n\n.koos-questions {\n    padding: 10px;\n    background: #f9f9f9;\n    border-radius: 5px;\n    margin-top: 5px;\n}\n\n.koos-question {\n    margin-bottom: 10px;\n}\n\n.koos-submit-btn {\n    width: 100%;\n    padding: 10px;\n    font-size: 18px;\n    background: #28a745;\n    color: white;\n    border: none;\n    cursor: pointer;\n    border-radius: 5px;\n    margin-top: 20px;\n}\n\n.koos-submit-btn:hover {\n    background: #218838;\n}\n\n.koos-result {\n    margin-top: 20px;\n    padding: 15px;\n    background: #fff3cd;\n    border-left: 5px solid #ffa502;\n    border-radius: 5px;\n}\n.koos-course-btn {\n    display: block;\n    width: 100%;\n    text-align: center;\n    padding: 10px;\n    background: #007bff;\n    color: white;\n    text-decoration: none;\n    border-radius: 5px;\n    margin-top: 15px;\n}\n\n.koos-course-btn:hover {\n    background: #0056b3;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3264,6 +3456,60 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_price_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_price_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_price_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/PageVideoCurse/Form/KOOSForm.scss":
+/*!***********************************************!*\
+  !*** ./src/PageVideoCurse/Form/KOOSForm.scss ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_KOOSForm_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!../../../node_modules/sass-loader/dist/cjs.js!./KOOSForm.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/PageVideoCurse/Form/KOOSForm.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_KOOSForm_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_KOOSForm_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_KOOSForm_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_KOOSForm_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -4641,4 +4887,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.e094d33c8c87cd726328.js.map
+//# sourceMappingURL=scripts.3d44d6c4a88af8c71d77.js.map
