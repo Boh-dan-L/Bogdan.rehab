@@ -1375,7 +1375,7 @@ var ThankYouPage = function ThankYouPage() {
 
     window.fbq('track', 'PageView');
     window.fbq('track', 'Purchase', {
-      value: 390.00,
+      value: 390.,
       // <-- Можеш підставити свою реальну суму
       currency: 'UAH'
     });
@@ -5231,4 +5231,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.f14c1d80674d49042fc4.js.map
+//# sourceMappingURL=scripts.42e5985506a12a4e1afa.js.map
