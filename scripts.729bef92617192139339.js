@@ -1374,11 +1374,6 @@ var ThankYouPage = function ThankYouPage() {
     window.fbq('init', '660454923490379'); // <-- Сюди вставити твій ID пікселя
 
     window.fbq('track', 'PageView');
-    window.fbq('track', 'Purchase', {
-      value: 390.,
-      // <-- Можеш підставити свою реальну суму
-      currency: 'UAH'
-    });
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "thank-you-page"
@@ -5231,4 +5226,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.42e5985506a12a4e1afa.js.map
+//# sourceMappingURL=scripts.729bef92617192139339.js.map
