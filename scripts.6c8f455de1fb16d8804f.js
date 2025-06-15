@@ -1351,36 +1351,51 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ThankYouPage = function ThankYouPage() {
-  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(function () {
-    // Ініціалізація пікселя (один раз)
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    var initFacebookPixel = function initFacebookPixel() {
+      if (window.fbq) {
+        // Піксель вже ініціалізовано — просто надсилаємо події
+        window.fbq('track', 'PageView');
+        window.fbq('track', 'Purchase', {
+          value: 290.00,
+          // заміни на свою ціну
+          currency: 'UAH'
+        });
+        return;
+      } // Додаємо Facebook Pixel скрипт
 
-      n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-      };
 
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); // Запуск пікселя
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
 
-    window.fbq('init', '660454923490379'); // <-- твій Pixel ID
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
 
-    window.fbq('track', 'PageView'); // Важливо: виклик події Purchase вручну
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      window.fbq('init', '660454923490379'); // ← твій Pixel ID
 
-    window.fbq('track', 'Purchase', {
-      value: 290.00,
-      // або витягни суму з URL
-      currency: 'UAH'
-    });
+      window.fbq('track', 'PageView');
+      window.fbq('track', 'Purchase', {
+        value: 290.00,
+        currency: 'UAH'
+      });
+    }; // Невелика затримка, щоб уникнути конфлікту з завантаженням SPA
+
+
+    setTimeout(function () {
+      initFacebookPixel();
+    }, 500);
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "thank-you-page"
@@ -5233,4 +5248,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.40d16e666c92536110f4.js.map
+//# sourceMappingURL=scripts.6c8f455de1fb16d8804f.js.map
