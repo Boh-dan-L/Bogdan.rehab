@@ -1351,46 +1351,40 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ThankYouPage = function ThankYouPage() {
-  // useEffect(() => {
-  //   const initFacebookPixel = () => {
-  //     if (window.fbq) {
-  //       // Піксель вже ініціалізовано — просто надсилаємо події
-  //       window.fbq('track', 'PageView');
-  //       window.fbq('track', 'Purchase', {
-  //         value: 290.00, // заміни на свою ціну
-  //         currency: 'UAH',
-  //       });
-  //       return;
-  //     }
-  //     // Додаємо Facebook Pixel скрипт
-  //     !(function(f, b, e, v, n, t, s) {
-  //       if (f.fbq) return;
-  //       n = f.fbq = function() {
-  //         n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-  //       };
-  //       if (!f._fbq) f._fbq = n;
-  //       n.push = n;
-  //       n.loaded = !0;
-  //       n.version = '2.0';
-  //       n.queue = [];
-  //       t = b.createElement(e);
-  //       t.async = !0;
-  //       t.src = v;
-  //       s = b.getElementsByTagName(e)[0];
-  //       s.parentNode.insertBefore(t, s);
-  //     })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-  //     window.fbq('init', '660454923490379'); // ← твій Pixel ID
-  //     window.fbq('track', 'PageView');
-  //     window.fbq('track', 'Purchase', {
-  //       value: 290.00,
-  //       currency: 'UAH',
-  //     });
-  //   };
-  //   // Невелика затримка, щоб уникнути конфлікту з завантаженням SPA
-  //   setTimeout(() => {
-  //     initFacebookPixel();
-  //   }, 500);
-  // }, []);
+  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(function () {
+    // Підключення Facebook Pixel, якщо ще не ініціалізований
+    if (!window.fbq) {
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = 'https://connect.facebook.net/en_US/fbevents.js';
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      window.fbq('init', '660454923490379'); // Твій Pixel ID
+    } // Відправка події PageView (опціонально)
+
+
+    window.fbq('track', 'PageView'); // Відправка події покупки
+
+    window.fbq('track', 'Purchase', {
+      value: 290,
+      // Ціна покупки
+      currency: 'UAH' // Валюта
+
+    });
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "thank-you-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u0414\u044F\u043A\u0443\u0454\u043C\u043E \u0437\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0443!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u041E\u043F\u043B\u0430\u0442\u0443 \u043F\u0440\u0438\u0439\u043D\u044F\u0442\u043E. \u041D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u043D\u0438\u0436\u0447\u0435, \u0449\u043E\u0431 \u043E\u0442\u0440\u0438\u043C\u0430\u0442\u0438 \u0434\u043E\u0441\u0442\u0443\u043F \u0434\u043E \u043A\u0443\u0440\u0441\u0443."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -5242,4 +5236,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.5e93cf48cb7a4de0f044.js.map
+//# sourceMappingURL=scripts.e18f91bf8131fc272904.js.map
