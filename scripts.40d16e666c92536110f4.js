@@ -1352,7 +1352,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ThankYouPage = function ThankYouPage() {
   react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(function () {
-    // Підключаємо Facebook Pixel
+    // Ініціалізація пікселя (один раз)
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
 
@@ -1370,10 +1370,17 @@ var ThankYouPage = function ThankYouPage() {
       t.src = v;
       s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s);
-    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    window.fbq('init', '660454923490379'); // <-- Сюди вставити твій ID пікселя
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); // Запуск пікселя
 
-    window.fbq('track', 'PageView');
+    window.fbq('init', '660454923490379'); // <-- твій Pixel ID
+
+    window.fbq('track', 'PageView'); // Важливо: виклик події Purchase вручну
+
+    window.fbq('track', 'Purchase', {
+      value: 290.00,
+      // або витягни суму з URL
+      currency: 'UAH'
+    });
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "thank-you-page"
@@ -5226,4 +5233,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.729bef92617192139339.js.map
+//# sourceMappingURL=scripts.40d16e666c92536110f4.js.map
