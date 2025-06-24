@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* harmony import */ var _PageOne_PageOne__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PageOne/PageOne */ "./src/PageOne/PageOne.js");
 /* harmony import */ var _PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PageVideoCurse/PageVideoCouse */ "./src/PageVideoCurse/PageVideoCouse.js");
 /* harmony import */ var _PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PagePrice/PagePrice */ "./src/PagePrice/PagePrice.js");
@@ -22,6 +22,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Layout/Layout */ "./src/components/Layout/Layout.js");
 /* harmony import */ var _preloader_Loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./preloader/Loader */ "./src/preloader/Loader.js");
 /* harmony import */ var _PageThankYou_ThankYouPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./PageThankYou/ThankYouPage */ "./src/PageThankYou/ThankYouPage.js");
+/* harmony import */ var _PageThankYou_PageKneeM__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./PageThankYou/PageKneeM */ "./src/PageThankYou/PageKneeM.js");
+/* harmony import */ var _PageThankYou_PageKneeA__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./PageThankYou/PageKneeA */ "./src/PageThankYou/PageKneeA.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -33,6 +35,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
@@ -63,24 +67,30 @@ var App = function App() {
       setLoading(false);
     }, 3000);
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_preloader_Loader__WEBPACK_IMPORTED_MODULE_6__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_preloader_Loader__WEBPACK_IMPORTED_MODULE_6__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     index: true,
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageOne_PageOne__WEBPACK_IMPORTED_MODULE_1__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/online",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_2__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/services",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_3__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/contacts",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageContacts_PageContacts__WEBPACK_IMPORTED_MODULE_4__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/thankyou",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageThankYou_ThankYouPage__WEBPACK_IMPORTED_MODULE_7__["default"], null)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+    path: "/kneem",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageThankYou_PageKneeM__WEBPACK_IMPORTED_MODULE_8__["default"], null)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+    path: "/kneea",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageThankYou_PageKneeA__WEBPACK_IMPORTED_MODULE_9__["default"], null)
   }))));
 };
 
@@ -1331,6 +1341,126 @@ var Price = function Price() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Price);
+
+/***/ }),
+
+/***/ "./src/PageThankYou/PageKneeA.js":
+/*!***************************************!*\
+  !*** ./src/PageThankYou/PageKneeA.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ThankYouPage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThankYouPage.scss */ "./src/PageThankYou/ThankYouPage.scss");
+
+
+
+var PageKneeA = function PageKneeA() {
+  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(function () {
+    // Підключення ДРУГОГО Facebook Pixel (із власним ім'ям fbq2)
+    if (!window.fbq2) {
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq2) return;
+
+        n = f.fbq2 = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+
+        if (!f._fbq2) f._fbq2 = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = 'https://connect.facebook.net/en_US/fbevents.js';
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); // ⚠️ Заміни ID нижче на інший піксель, який має запускатись ТІЛЬКИ тут
+
+      window.fbq2('init', '1162516301724836');
+    } // Відправка події покупки
+
+
+    window.fbq2('track', 'Purchase', {
+      value: 390,
+      currency: 'UAH'
+    });
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "thank-you-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u0414\u044F\u043A\u0443\u0454\u043C\u043E \u0437\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0443!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u041E\u043F\u043B\u0430\u0442\u0443 \u043F\u0440\u0438\u0439\u043D\u044F\u0442\u043E. \u041D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u043D\u0438\u0436\u0447\u0435, \u0449\u043E\u0431 \u043E\u0442\u0440\u0438\u043C\u0430\u0442\u0438 \u0434\u043E\u0441\u0442\u0443\u043F \u0434\u043E \u043A\u0443\u0440\u0441\u0443."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://t.me/Bogdan_rehab_bot?start=ZGw6Mjc4Njc3",
+    className: "product-link"
+  }, "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u0434\u043E \u043A\u0443\u0440\u0441\u0443"));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageKneeA);
+
+/***/ }),
+
+/***/ "./src/PageThankYou/PageKneeM.js":
+/*!***************************************!*\
+  !*** ./src/PageThankYou/PageKneeM.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ThankYouPage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThankYouPage.scss */ "./src/PageThankYou/ThankYouPage.scss");
+
+
+
+var PageKneeM = function PageKneeM() {
+  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(function () {
+    // Підключення ДРУГОГО Facebook Pixel (із власним ім'ям fbq2)
+    if (!window.fbq2) {
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq2) return;
+
+        n = f.fbq2 = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+
+        if (!f._fbq2) f._fbq2 = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = 'https://connect.facebook.net/en_US/fbevents.js';
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); // ⚠️ Заміни ID нижче на інший піксель, який має запускатись ТІЛЬКИ тут
+
+      window.fbq2('init', '1162516301724836');
+    } // Відправка події покупки
+
+
+    window.fbq2('track', 'Purchase', {
+      value: 390,
+      currency: 'UAH'
+    });
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "thank-you-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u0414\u044F\u043A\u0443\u0454\u043C\u043E \u0437\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0443!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u041E\u043F\u043B\u0430\u0442\u0443 \u043F\u0440\u0438\u0439\u043D\u044F\u0442\u043E. \u041D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u043D\u0438\u0436\u0447\u0435, \u0449\u043E\u0431 \u043E\u0442\u0440\u0438\u043C\u0430\u0442\u0438 \u0434\u043E\u0441\u0442\u0443\u043F \u0434\u043E \u043A\u0443\u0440\u0441\u0443."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://t.me/Bogdan_rehab_bot?start=ZGw6Mjc4Njk1",
+    className: "product-link"
+  }, "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u0434\u043E \u043A\u0443\u0440\u0441\u0443"));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageKneeM);
 
 /***/ }),
 
@@ -5236,4 +5366,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.e18f91bf8131fc272904.js.map
+//# sourceMappingURL=scripts.3db65ffa959037e910af.js.map
